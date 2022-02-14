@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/webportfolio/static/css/main.24df1866.css",
+    "main.js": "/webportfolio/static/js/main.d756877c.js",
+    "static/media/about-bg.jpg": "/webportfolio/static/media/about-bg.b641580c1c1b2caa195d.jpg",
+    "static/media/CRUD-exemplo-artigo.png": "/webportfolio/static/media/CRUD-exemplo-artigo.77eb1e87827231b3e1d5.png",
+    "static/media/aws.png": "/webportfolio/static/media/aws.1964e87ddc887f3b7f8f.png",
+    "static/media/CSS.png": "/webportfolio/static/media/CSS.725a6d822f183980d4c2.png",
+    "static/media/contact-bg.svg": "/webportfolio/static/media/contact-bg.0da5433b5fb80ac41138.svg",
+    "static/media/tic-tac-toe-react.png": "/webportfolio/static/media/tic-tac-toe-react.88b85e9940af245637b2.png",
+    "static/media/MOSTUSEDWORDS-EletronJS.png": "/webportfolio/static/media/MOSTUSEDWORDS-EletronJS.78a6bdad95adb884794c.png",
+    "static/media/CRUD-lista-artigos.png": "/webportfolio/static/media/CRUD-lista-artigos.c0b243da193b096f0d9a.png",
+    "static/media/VUE-MontyHall-game.png": "/webportfolio/static/media/VUE-MontyHall-game.2f7ed7709f7ab1cc0b16.png",
+    "static/media/VUE-MontyHall.png": "/webportfolio/static/media/VUE-MontyHall.aba3f578e611817f17cf.png",
+    "static/media/git-github.jpg": "/webportfolio/static/media/git-github.94b079e0af79255005f4.jpg",
+    "static/media/Calculadora-REACT.png": "/webportfolio/static/media/Calculadora-REACT.2f5150730479225a543c.png",
+    "static/media/web-moderno.jpg": "/webportfolio/static/media/web-moderno.4205464d1abd9241df0d.jpg",
+    "static/media/webdesigner.jpg": "/webportfolio/static/media/webdesigner.2c051b53f9f2bbdbbfb2.jpg",
+    "static/media/CRUD-autenticacao.png": "/webportfolio/static/media/CRUD-autenticacao.7277125819dd1dce0ea4.png",
+    "static/media/codeigniter.jpg": "/webportfolio/static/media/codeigniter.fdeeef15e845f2f1f804.jpg",
+    "static/media/flutter.jpg": "/webportfolio/static/media/flutter.5f4d9ddf45f6b34c157a.jpg",
+    "static/media/python.jpg": "/webportfolio/static/media/python.83e76d56ff315cc50092.jpg",
+    "static/media/php-mysql.jpg": "/webportfolio/static/media/php-mysql.37cf6f22e707af3cccc0.jpg",
+    "static/media/learning-bg.svg": "/webportfolio/static/media/learning-bg.c37eb24470a3d5cc872b.svg",
+    "index.html": "/webportfolio/index.html",
+    "main.24df1866.css.map": "/webportfolio/static/css/main.24df1866.css.map",
+    "main.d756877c.js.map": "/webportfolio/static/js/main.d756877c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24df1866.css",
+    "static/js/main.d756877c.js"
+  ]
+}
