@@ -25,6 +25,12 @@ cd web-portfolio
 ## instalar as dependencias
 npm install
 
+## contact component
+cadastrar no EmailJs
+gerar o service_id, template_id
+substituir no codigo service_id, template_id e user_id
+consultar a documentação para tirar duvidas 
+
 ## executar o projeto
 npm start
 ```
