@@ -1,0 +1,252 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-left: 10px;
+  background-image: url("../../assets/imgs/bg/about-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+}
+.about-me {
+  flex: 1;
+}
+.about-skills {
+  flex: 1;
+  display: flex;
+  margin-bottom: 20px;
+}
+.about-skills-hard {
+  margin-right: 100px;
+  margin-left: 20px;
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.4px);
+  border: 1px solid rgba(14, 0, 11, 1);
+}
+.about-skills-hard-bars {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+.about-skills-hard-text {
+  text-align: center;
+  font-size: clamp(2rem, 1.2484rem + 1.5639vw, 3.125rem);
+  color: aliceblue;
+}
+.about-skills-soft {
+  flex: 1;
+  flex-direction: column;
+  margin-right: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.4px);
+  border: 1px solid rgba(14, 0, 11, 1);
+}
+.about-skills-soft-bars {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+.about-skills-soft-text {
+  text-align: center;
+  font-size: clamp(2rem, 1.2484rem + 1.5639vw, 3.125rem);
+  color: aliceblue;
+}
+.about-me-areas {
+  overflow: hidden;
+  height: 74px;
+  padding-left: 16%;
+}
+.about-me-areas-anim {
+  animation: move 11s ease-in-out infinite alternate;
+}
+@keyframes move {
+  33.33% {
+    transform: translateY(-74px);
+  }
+  66.66% {
+    transform: translateY(-148px);
+  }
+  100% {
+    transform: translateY(-222px);
+  }
+}
+.area {
+  font-size: 50px;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+}
+.about-text-h2 {
+  font-size: 70px;
+  padding-left: 2%;
+  font-weight: 400;
+}
+.about-text-h1 {
+  font-size: 100px;
+  font-weight: 700;
+  padding-left: 8%;
+}
+.about-message {
+  font-size: 40px;
+  padding-left: 21%;
+  font-weight: 400;
+}
+
+@media screen AND (max-width: 1024px) {
+  .about {
+    max-width: 1024px;
+    min-height: max-content;
+  }
+  .about-text-h2 {
+    font-size: 60px;
+  }
+  .about-text-h1 {
+    font-size: 80px;
+  }
+  .area {
+    font-size: 43px;
+  }
+  .about-me-areas {
+    height: 64px;
+    padding-left: 9%;
+  }
+  @keyframes move {
+    33.33% {
+      transform: translateY(-64px);
+    }
+    66.66% {
+      transform: translateY(-128px);
+    }
+    100% {
+      transform: translateY(-192px);
+    }
+  }
+  .about-message {
+    padding: 0;
+    text-align: center;
+    font-size: 50px;
+  }
+  .about-skills-hard {
+    margin-right: 50px;
+  }
+  .about-skills-soft{
+    flex: 1.5;
+  }
+}
+@media screen AND (max-width: 768px) {
+  .about {
+    max-width: 768px;
+    min-height: max-content;
+    padding-right: 10px;
+  }
+  .about-skills {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .about-skills-hard,
+  .about-skills-soft {
+    padding: 0;
+    margin: 0;
+  }
+  .about-skills-hard-text, .about-skills-soft-text {
+    font-size: 50px;
+  }
+  .about-text-h2 {
+    text-align: center;
+    font-size: 40px;
+    padding-left: 0;
+  }
+  .about-text-h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    padding-left: 0;
+  }
+  .about-message {
+    text-align: center;
+    font-size: 30px;
+    padding-left: 0;
+  }
+  .about-me-areas {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    height: 34px;
+    padding-left: 30px;
+  }
+  .area {
+    font-size: 23px;
+  }
+  @keyframes move {
+    33.33% {
+      transform: translateY(-34px);
+    }
+    66.66% {
+      transform: translateY(-68px);
+    }
+    100% {
+      transform: translateY(-102px);
+    }
+  }
+}
+@media screen AND (max-width: 425px) {
+  .about {
+    max-width: 425px;
+    min-height: max-content;
+    padding-right: 10px;
+    padding-top: 25px;
+  }
+  .about-skills {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .about-skills-hard,
+  .about-skills-soft {
+    padding: 0;
+    margin: 0;
+  }
+  .about-skills-soft-text, .about-skills-hard-text {
+    font-size: clamp(2.75rem, 1.6071rem + 5.7143vw, 3.125rem);
+  }
+  .about-text-h2 {
+    font-size: clamp(2.1875rem, 1.2351rem + 4.7619vw, 2.5rem);
+  }
+  .about-text-h1 {
+    text-align: center;
+    font-size: clamp(2.3125rem, -0.1637rem + 12.381vw, 3.125rem);
+    font-weight: 700;
+    padding-left: 0;
+  }
+  .about-message {
+    text-align: center;
+    font-size: 30px;
+    padding-left: 0;
+  }
+  .about-me-areas {
+    overflow: hidden;
+    height: 26px;
+    padding-left: 0;
+  }
+  .area {
+    font-size: 18px;
+  }
+  @keyframes move {
+    33.33% {
+      transform: translateY(-26px);
+    }
+    66.66% {
+      transform: translateY(-52px);
+    }
+    100% {
+      transform: translateY(-78px);
+    }
+  }
+}

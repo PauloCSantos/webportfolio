@@ -1,0 +1,37 @@
+.learning-content {
+    height: 100vh;
+    min-height: 877px;
+    padding: 50px 10px 10px 10px ;
+    background-image: url('../../assets/imgs/bg/learning-bg.svg');
+     /* background by SVGBackgrounds.com */
+}
+
+@media screen AND (max-width: 1024px) {
+    .learning-content {
+        max-width: 1024px;
+        padding-top: 20px;
+    }
+}
+
+@media screen AND (max-width: 768px) {
+    .learning-content {
+        max-width: 768px;
+    }
+}
+
+@media screen AND (orientation: landscape) AND (max-width: 897px) {
+    .learning-content {
+        height: 100vh;
+        min-height: unset;
+    }
+    
+}
+
+@media screen AND (max-width: 425px) {
+    .learning-content {
+        max-width: 425px;
+        padding-top: 20px;
+        height: max-content;
+        min-height: unset;
+    }
+}

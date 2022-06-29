@@ -1,0 +1,130 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 96vh;
+  width: 100%;
+  padding: 0 5px;
+  background-image: url("../../assets/imgs/bg/contact-bg.svg");
+  /*background-image from https://bgjar.com/*/
+}
+.contact-container {
+  background-color: rgba(68, 74, 128, 0.3);
+  width: 40%;
+  margin: 10% 0;
+}
+.contact-f-form {
+  margin: 20px 10px 0 0;
+  padding: 5px;
+}
+.contact-input {
+  padding: 1%;
+  display: block;
+  width: 100%;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid black;
+  margin: 10px 0 10px 0;
+}
+.contact-area {
+  resize: none;
+  padding: 1%;
+  display: block;
+  width: 100%;
+}
+.contact-text {
+  font-size: 15px;
+  font-weight: 200;
+  margin: 5px 0 5px 0;
+  color: aliceblue;
+}
+.contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-title {
+  font-size: 4rem;
+  color: aliceblue;
+}
+/* From cssbuttons.io by @adamgiebl */
+.btn-contact {
+  position: relative;
+  display: inline-block;
+  margin: 15px;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: aliceblue;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border-radius: 30px;
+  border: 2px solid aliceblue;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 aliceblue;
+}
+
+.btn-contact:hover {
+  color: #0A0F46;
+  box-shadow: inset 0 -100px 0 0 aliceblue;
+}
+
+.btn-contact:active {
+  transform: scale(0.9);
+}
+
+.div-try {
+  color: aliceblue;
+  font-size: 13px;
+  word-break: break-word;
+}
+.div-try.t {
+  background-color: #008000af; 
+}
+.div-try.f {
+  background-color: #ff000050;
+}
+
+.btn-validation-area {
+  display: flex;
+}
+.validation-msg {
+  align-self: center;
+}
+@media screen AND (max-width: 1024px) {
+  .contact {
+    max-width: 1024px;
+    height: max-content;
+  }
+  .contact-container {
+    width: 70%;
+  }
+}
+
+@media screen AND (max-width: 768px) {
+  .contact {
+    max-width: 768px;
+  }
+  .contact-container {
+    width: 100%;
+  }
+}
+@media screen AND (max-width: 425px) {
+  .contact {
+    max-width: 425px;
+    padding-bottom: 30px;
+  }
+  .contact-container {
+    width: 100%;
+  }
+  .contact-info {
+    flex-direction: column-reverse;
+  }
+  .div-try {
+    font-size: 10px;
+  }
+}

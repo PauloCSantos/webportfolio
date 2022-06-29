@@ -1,0 +1,104 @@
+.courses {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px 5px 10px;
+    background: radial-gradient(circle, rgba(10,15,70,1) 80%, rgba(0,12,143,1) 100%);
+    color: white;
+}
+.courses-end {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+}
+
+.courses-start {
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+}
+
+.courses-end-text {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.courses-start-text{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.courses-end-card{
+    height: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(20%, 22%));
+    grid-template-rows: repeat(2, minmax(225.92px, 290px));
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.courses-start-card{ 
+    height: 80%;
+    display: grid;
+    grid-template-columns: 25% 25%;
+    grid-template-rows: 282.88px;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+}
+
+@media screen AND (max-width: 1024px) {
+    .courses{
+        max-width: 1024px;
+        height: max-content;
+    }
+    .courses-end-text, .courses-start-text {
+        font-size: 45px;
+    }
+    .courses-end-card {
+        grid-template-rows: repeat(2, 280px);
+    }
+    .courses-start-card {
+        grid-template-rows: 350px;
+    }
+    
+}
+@media screen AND (max-width: 768px) {
+    .courses {
+        max-width: 768px;
+        
+    }
+    .courses-end-card {
+        grid-template-columns: 45% 45%;
+        grid-template-rows: repeat(4, 160px);
+        column-gap: 10%;
+    }
+    .courses-end-text, .courses-start-text {
+        font-size: 34px;
+    }
+    .courses-start-card {
+       grid-template-columns: 45% 45%;
+       grid-template-rows: 200px;
+       column-gap: 5%;
+    }
+}
+@media screen AND (max-width: 425px) {
+    .courses {
+        max-width: 425px;
+        
+    }
+    .courses-end-card {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(4, 150px);
+        column-gap: 6%;
+    }
+    .courses-end-text, .courses-start-text {
+        font-size: 34px;
+    }
+    .courses-start-card {
+       grid-template-columns: 45% 45%;
+       grid-template-rows: 200px;
+    }
+}
